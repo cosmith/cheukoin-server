@@ -3,4 +3,5 @@ from cheukoin import views
 
 urlpatterns = patterns('',
     url(r'^$', views.index),
+    url(r'^lobby/new/$', views.index),
 )
