@@ -1,3 +1,7 @@
-django==1.7
+django
 pep8
 pylint
+django-toolbelt
+gunicorn
+psycopg2
+wsgiref
