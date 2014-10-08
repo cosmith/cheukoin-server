@@ -25,6 +25,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DATABASES = {}
 
 # Application definition
 
