@@ -7,7 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', views.index),
-    url(r'^lobby/$', views.lobby_list),
-    url(r'^lobby/new/$', views.lobby_new),
+    url(r'^lobby/$', views.LobbyList.as_view()),
+    url(r'^lobby/new/$', views.LobbyCreate.as_view()),
     url(r'^admin/', include(admin.site.urls)),
 )
