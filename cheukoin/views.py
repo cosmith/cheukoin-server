@@ -7,6 +7,7 @@ from cheukoin.models import Lobby
 def index(request):
     return JsonResponse({"hello": "test"})
 
+@csrf_exempt
 def test(request):
     result = {
         "get": request.GET,
