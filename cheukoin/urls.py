@@ -10,5 +10,6 @@ urlpatterns = patterns('',
     url(r'^test/$', views.test),
     url(r'^lobby/$', views.LobbyList.as_view()),
     url(r'^lobby/new/$', views.LobbyCreate.as_view()),
+    url(r'^turn/$', views.Turn.as_view()),
     url(r'^admin/', include(admin.site.urls)),
 )
